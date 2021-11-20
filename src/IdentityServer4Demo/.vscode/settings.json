@@ -1,0 +1,25 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#d2a3dd",
+        "activityBar.activeBorder": "#8c7b34",
+        "activityBar.foreground": "#15202b",
+        "activityBar.inactiveForeground": "#15202b99",
+        "activityBarBadge.background": "#8c7b34",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "titleBar.activeBackground": "#c07ecf",
+        "titleBar.inactiveBackground": "#c07ecf99",
+        "titleBar.activeForeground": "#15202b",
+        "titleBar.inactiveForeground": "#15202b99",
+        "statusBar.background": "#c07ecf",
+        "statusBarItem.hoverBackground": "#ae59c1",
+        "statusBar.foreground": "#15202b",
+        "activityBar.activeBackground": "#d2a3dd",
+        "sash.hoverBorder": "#d2a3dd",
+        "statusBarItem.remoteBackground": "#c07ecf",
+        "statusBarItem.remoteForeground": "#15202b"
+    },
+    "peacock.color": "#c07ecf",
+    "appService.preDeployTask": "publish-release",
+    "appService.deploySubpath": "",
+    "appService.defaultWebAppToDeploy": "None"
+}

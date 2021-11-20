@@ -1,0 +1,31 @@
+﻿@{
+    var version = typeof(IdentityServer4.Hosting.IdentityServerMiddleware).Assembly.GetName().Version.ToString();
+}
+
+<div class="welcome-page">
+    <div class="row page-header">
+        <div class="col-sm-10">
+            <h1>
+                <img class="icon" src="~/icon.jpg">
+                Welcome to the IdentityServer4 demo site
+                <small>(version @version)</small>
+            </h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-8">
+            <p>
+                IdentityServer publishes a
+                <a href="~/.well-known/openid-configuration">discovery document</a>
+                where you can find metadata and links to all the endpoints, key material, etc.
+            </p>
+        </div>
+       
+    </div>
+    <div class="row">
+        <div class="col-sm-8">
+            This is a fork of <a href="https://github.com/IdentityServer/IdentityServer4.Demo">this repo</a> for testing the <a href="https://www.npmjs.com/package/angular-oauth2-oidc">angular-oauth2-oidc</a> library.
+        </div>
+    </div>
+</div>
